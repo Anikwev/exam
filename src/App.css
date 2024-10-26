@@ -1,0 +1,15 @@
+*{
+  @apply m-0 p-0 outline-none scroll-smooth;
+}
+body{
+  @apply w-full h-screen;
+  background: url(../public/images/pik 1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.todoInput{
+  @apply w-[350px] h-full bg-transparent pl-5 text-white font-bold;
+}
+.todoMain{
+  @apply w-[500px] h-[50px] rounded-xl border-2 border-solid border-[#CB6040] flex justify-between items-center overflow-hidden;
+}
